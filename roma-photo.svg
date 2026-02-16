@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="ROMA">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f0f13"/>
+      <stop offset="45%" stop-color="#5a2b2e"/>
+      <stop offset="100%" stop-color="#25181a"/>
+    </linearGradient>
+    <linearGradient id="blade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f8ff"/>
+      <stop offset="100%" stop-color="#b8bed6"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <circle cx="270" cy="270" r="78" fill="#f8c38f" opacity="0.92"/>
+  <polygon points="120,680 520,260 910,680" fill="#4c474f"/>
+  <polygon points="455,360 520,260 595,385 520,430" fill="#dedede"/>
+
+  <rect x="90" y="520" width="390" height="280" rx="24" fill="#171922" stroke="#2d3142" stroke-width="6"/>
+  <rect x="545" y="520" width="390" height="280" rx="24" fill="#171922" stroke="#2d3142" stroke-width="6"/>
+  <text x="182" y="700" font-family="Arial Black, Impact, sans-serif" font-size="170" fill="#f7f7f7" opacity="0.95">RO</text>
+  <text x="622" y="700" font-family="Arial Black, Impact, sans-serif" font-size="170" fill="#f7f7f7" opacity="0.95">MA</text>
+
+  <rect x="494" y="260" width="60" height="110" rx="8" fill="#2f3138"/>
+  <rect x="514" y="330" width="20" height="520" fill="url(#blade)" filter="url(#glow)"/>
+
+  <rect x="0" y="0" width="1024" height="1024" fill="none" stroke="#000" stroke-opacity="0.24" stroke-width="22"/>
+</svg>
